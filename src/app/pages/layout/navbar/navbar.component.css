@@ -1,0 +1,41 @@
+.navbar {
+  display: flex;
+  background-color: #F0A06A;
+  padding: 10px;
+  border-radius: 10px 10px 0px 0px;
+  height: 80px;
+  align-items: center;
+}
+
+.nav-item {
+  flex: 1;
+  text-align: center;
+  padding: 10px;
+  color: white;
+}
+
+img{
+  width: 121px;
+  height: 50px;
+}
+.nav-item i {
+  font-size: 30px; /* Cambia el tamaño del icono según tus preferencias */
+  border: 1px solid #fafafa;
+  border-radius: 40px;
+  padding: 10px;
+  transition: all 0.3s;
+}
+
+.nav-item button{
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.nav-item i:hover {
+  padding: 5px; /* Reduce el padding cuando el cursor está encima del botón */
+  color: #0a0a0a;
+  border: 1px solid #111111;
+}

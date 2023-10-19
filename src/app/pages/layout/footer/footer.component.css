@@ -1,0 +1,20 @@
+.footer {
+  background-color: #F0A06A;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px; /* Ajusta la altura del footer según tus necesidades */
+}
+
+.footer-item {
+  margin: 0 10px; /* Espacio entre los elementos */
+  color: #0a0a0a;
+}
+img{
+  width: 90px;
+  height: 40px;
+}
+
+i{
+  margin:3px;
+}
