@@ -8,6 +8,7 @@ import { NavbarComponent } from './pages/layout/navbar/navbar.component';
 import { DashboardComponent } from './pages/dashboard/dashboard.component';
 import { ProductsComponent } from './pages/products/products.component';
 import { FilterComponent } from './pages/layout/filter/filter.component';
+import { ProfileComponent } from './pages/profile/profile.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { FilterComponent } from './pages/layout/filter/filter.component';
     NavbarComponent,
     DashboardComponent,
     ProductsComponent,
-    FilterComponent
+    FilterComponent,
+    ProfileComponent
   ],
   imports: [
     BrowserModule,

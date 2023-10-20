@@ -3,11 +3,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100px; /* Ajusta la altura del footer según tus necesidades */
+  height: 45px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 
 .footer-item {
-  margin: 0 10px; /* Espacio entre los elementos */
+  margin: 0 10px;
   color: #0a0a0a;
 }
 img{

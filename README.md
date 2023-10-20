@@ -18,5 +18,6 @@ Clytia es una tienda en línea que se especializa en la venta de una amplia vari
 ## Capturas de Pantalla
 *Dashboard.*
 ![img.png](img.png)
-
 ![img_2.png](img_2.png)
+*Profile*
+![img_1.png](img_1.png)

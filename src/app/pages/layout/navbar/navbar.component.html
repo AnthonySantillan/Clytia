@@ -1,10 +1,15 @@
 <nav class="navbar">
   <div class="nav-item">
-    <img src="./assets/images/Clytia_logo_SF.png" alt="" srcset="">
+    <img src="./assets/images/Clytia_logo_SF.png" alt="" srcset="" routerLink="/dashboard">
   </div>
   <div class="nav-item">
-    <button class="button">
-      <i class="fa-solid fa-circle-user"></i>
+    <button class="button" routerLink="/products">
+      <i id="shop" class="fa-solid fa-shop"></i>
+    </button>
+  </div>
+  <div class="nav-item">
+    <button class="button" routerLink="/profile">
+      <i id="user" class="fa-solid fa-circle-user"></i>
     </button>
   </div>
 </nav>
